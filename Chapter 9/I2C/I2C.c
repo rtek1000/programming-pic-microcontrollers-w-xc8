@@ -15,7 +15,7 @@
  * 
  * Modified: Rtek1000
  * PIC: 16F876 @ 20MHz
- * - Added Send_I2C_ControlByte2 function to generic usage
+ * - Added Send_I2C_ControlByte2 function for generic use
  * 
  */
 
