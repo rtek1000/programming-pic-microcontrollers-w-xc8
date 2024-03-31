@@ -14,7 +14,7 @@
  * https://github.com/Apress/programming-pic-microcontrollers-w-xc8/blob/master/Chapter%209/EEPROM/24_I2C1.X/I2C.c
  * 
  * Modified: Rtek1000
- * PIC: 16F876 @ 20MHz
+ * PIC16F876, 20MHz, 400kHz
  * - Added Send_I2C_ControlByte2 function for generic use
  * 
  */
@@ -29,7 +29,7 @@
 void I2C_Init(void){
     
     //**********************************************************************************
-    // Setup MSSP as I2C Master mode, clock rate of 100Khz
+    // Setup MSSP as I2C Master mode, clock rate of 400Khz
     //**********************************************************************************
 
     SSPCONbits.SSPM=0x08;       // I2C Master mode, clock = Fosc/(4 * (SSPADD+1))
