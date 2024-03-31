@@ -14,7 +14,7 @@
  * https://github.com/Apress/programming-pic-microcontrollers-w-xc8/blob/master/Chapter%209/EEPROM/24_I2C1.X/I2C.c
  * 
  * Modified by Rtek1000 (Mar, 31, 2024)
- * PIC: 16F876 @ 20MHz
+ * PIC16F876, 20MHz, 400kHz
  * - Added Send_I2C_ControlByte2 function for generic use
  * 
  */
